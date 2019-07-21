@@ -19,3 +19,7 @@
   - installed org-bullets
 * lesson 3
   Emacs lisp
+* lesson 4
+  buffer
+  - ido-mode
+  - Installed tabbar
