@@ -23,3 +23,6 @@
   buffer
   - ido-mode
   - Installed tabbar
+* lesson 5
+  windows
+  - installed ace-window

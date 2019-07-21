@@ -10,3 +10,4 @@ elpa/
 
 # Undo-tree save-files
 *.~undo-tree
+ido.last
