@@ -1,3 +1,5 @@
+#+STARTUP: showall hidestars
+
 
 * Links
   - [[http://tabtelf.github.io/blog][Here's my Blog]]
@@ -14,3 +16,4 @@
   Show some org-mode
   - review init.el
   - set up Readme.org
+  - installed org-bullets
