@@ -17,3 +17,5 @@
   - review init.el
   - set up Readme.org
   - installed org-bullets
+* lesson 3
+  Emacs lisp
