@@ -18,6 +18,7 @@
 (setq inhibit-startup-message t)
 (tool-bar-mode -1)
 
+;; setting up package manager
 (require 'package)
 (setq package-enable-at-startup nil)
 (setq package-archives
@@ -46,3 +47,20 @@
   :ensure
   :config
   (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1))))
+
+;; buffer stuff
+(setq indo-enable-flex-matching t)
+(setq ido-everywhere t)
+(ido-mode 1)
+
+(defalias 'list-buffers 'ibuffer)
+;; (defalias 'list-buffers 'ibuffer-other-window)
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; If you like the tabbar
+;; (use-package tabbar
+;;   :ensure t
+;;   :config
+;;   (tabbar-mode 1))
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
