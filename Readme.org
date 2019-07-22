@@ -30,3 +30,6 @@
   search
   - installed swiper
   - installed counsel
+* lesson 7
+  Navigating with Avy
+  - installed Avy
