@@ -26,3 +26,7 @@
 * lesson 5
   windows
   - installed ace-window
+* lesson 6
+  search
+  - installed swiper
+  - installed counsel
