@@ -12,3 +12,4 @@ elpa/
 *.~undo-tree
 ido.last
 recentf
+ac-comphist.dat
