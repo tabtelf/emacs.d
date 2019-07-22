@@ -7,7 +7,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (auto-complete counsel conusel swiper ace-window org-bullets which-key try use-package))))
+    (color-theme-modern zenburn-theme color-theme auto-complete counsel conusel swiper ace-window org-bullets which-key try use-package))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -116,3 +116,10 @@
   (progn
     (ac-config-default)
     (global-auto-complete-mode t)))
+
+(use-package color-theme-modern
+  :ensure t)
+
+(use-package zenburn-theme
+  :ensure t
+  :config (load-theme 'zenburn t))

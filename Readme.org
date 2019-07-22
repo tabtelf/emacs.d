@@ -36,3 +36,5 @@
 * lesson 8
   Autocomplete
   - Installed auto-complete
+* lesson 9
+  Themes
