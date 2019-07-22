@@ -51,9 +51,10 @@
   (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1))))
 
 ;; buffer stuff
-(setq indo-enable-flex-matching t)
-(setq ido-everywhere t)
-(ido-mode 1)
+;; using swiper so ido no longer needed
+;; (setq indo-enable-flex-matching t)
+;; (setq ido-everywhere t)
+;; (ido-mode 1)
 
 (defalias 'list-buffers 'ibuffer)
 ;; (defalias 'list-buffers 'ibuffer-other-window)
