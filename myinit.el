@@ -1,14 +1,17 @@
-
 (setq inhibit-startup-message t)
 (tool-bar-mode -1)
 (fset 'yes-or-no-p 'y-or-n-p)
 (global-set-key (kbd "<f5>") 'revert-buffer)
+
+(use-package try
+  :ensure t)
 
 (use-package which-key
   :ensure t
   :config (which-key-mode))
 
 ;; Org-mode stuff
+(require 'org-tempo)
 (use-package org-bullets
   :ensure
   :config
@@ -72,3 +75,13 @@
 (use-package zenburn-theme
   :ensure t
   :config (load-theme 'zenburn t))
+
+(use-package ox-reveal
+  :ensure t
+  :config
+  (require 'ox-reveal)
+  (setq org-reveal-root "http://cdn.jsdelivr.net/reveal.js/3.8.0/")
+  (setq org-reveal-mathjax t))
+
+(use-package htmlize
+  :ensure t)
