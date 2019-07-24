@@ -76,6 +76,8 @@
   :ensure t
   :config (load-theme 'zenburn t))
 
+(load-theme 'leuven t)
+
 (use-package ox-reveal
   :ensure t
   :config
@@ -85,3 +87,13 @@
 
 (use-package htmlize
   :ensure t)
+
+(use-package flycheck
+  :ensure t
+  :init (global-flycheck-mode))
+
+(use-package jedi
+  :ensure t
+  :init
+  (add-hook 'python-mode-hook 'jedi:setup)
+  (add-hook 'Python-mode-hook 'jedi:ac-setup))

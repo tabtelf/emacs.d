@@ -93,12 +93,16 @@
   #+end_src
 * Themes
   #+begin_src emacs-lisp
+
     (use-package color-theme-modern
       :ensure t)
 
     (use-package zenburn-theme
       :ensure t
       :config (load-theme 'zenburn t))
+
+    (load-theme 'leuven t)
+
   #+end_src
 * Reveal.js
   #+begin_src emacs-lisp
@@ -111,4 +115,18 @@
 
     (use-package htmlize
       :ensure t)
+  #+end_src
+* FlyCheck
+  #+begin_src emacs-lisp
+    (use-package flycheck
+      :ensure t
+      :init (global-flycheck-mode))
+  #+end_src
+* Python
+  #+begin_src emacs-lisp
+    (use-package jedi
+      :ensure t
+      :init
+      (add-hook 'python-mode-hook 'jedi:setup)
+      (add-hook 'Python-mode-hook 'jedi:ac-setup))
   #+end_src

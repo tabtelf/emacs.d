@@ -25,7 +25,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (htmlize ox-reveal color-theme-modern auto-org-md borg org-ac zenburn-theme color-theme auto-complete counsel conusel swiper ace-window org-bullets which-key try use-package))))
+    (jedi flycheck flycheke htmlize ox-reveal color-theme-modern auto-org-md borg org-ac zenburn-theme color-theme auto-complete counsel conusel swiper ace-window org-bullets which-key try use-package))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

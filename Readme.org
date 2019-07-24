@@ -38,3 +38,13 @@
   - Installed auto-complete
 * lesson 9
   Themes
+* lesson 10
+  org init files
+* lesson 11
+  org-reveal/reveal.js
+  -Installed ox-reveal
+* lesson 12
+  Python, Flycheck, Jedi
+  - installed Flycheck
+  - pip install pylint
+  - installed Jedi
