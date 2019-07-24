@@ -7,7 +7,8 @@
 
 (add-to-list 'package-archives
 	     '("melpa" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/"))
-
+(add-to-list 'package-archives
+	     '("melpa-stable" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa-stable/"))
 (package-initialize)
 
 ;; Bootstrap `use-package'
@@ -25,7 +26,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (jedi flycheck flycheke htmlize ox-reveal color-theme-modern auto-org-md borg org-ac zenburn-theme color-theme auto-complete counsel conusel swiper ace-window org-bullets which-key try use-package))))
+    (yasnippet-snippets jedi flycheck flycheke htmlize ox-reveal color-theme-modern auto-org-md borg org-ac zenburn-theme color-theme auto-complete counsel conusel swiper ace-window org-bullets which-key try use-package))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

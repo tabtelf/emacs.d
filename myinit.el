@@ -93,7 +93,17 @@
   :init (global-flycheck-mode))
 
 (use-package jedi
+:ensure t
+:init
+(add-hook 'python-mode-hook 'jedi:setup)
+(add-hook 'Python-mode-hook 'jedi:ac-setup))
+
+(use-package elpy
   :ensure t
   :init
-  (add-hook 'python-mode-hook 'jedi:setup)
-  (add-hook 'Python-mode-hook 'jedi:ac-setup))
+  (elpy-enable))
+
+(use-package yasnippet
+  :ensure t
+  :init
+    (yas-global-mode 1))

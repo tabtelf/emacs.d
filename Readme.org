@@ -46,5 +46,11 @@
 * lesson 12
   Python, Flycheck, Jedi
   - installed Flycheck
-  - pip install pylint
+  - sudo -H pip install pylint
+  - pip install virtualenv
   - installed Jedi
+* lesson 13
+  yasnippet
+  - installed [[https://github.com/jorgenschaefer/elpy][elpy]]
+  - installed [[https://github.com/joaotavora/yasnippet][yasnippet]]
+  - installed [[https://github.com/AndreaCrotti/yasnippet-snippets][yasnippet-snippets]]
