@@ -6,7 +6,13 @@
     (tool-bar-mode -1)
     (fset 'yes-or-no-p 'y-or-n-p)
     (global-set-key (kbd "<f5>") 'revert-buffer)
+    ;; (set-frame-font "-WQYF-WenQuanYi Micro Hei Mono-normal-normal-normal-*-16-*-*-*-*-0-iso10646-1") 
   #+end_src
+* cnfonts
+  #+BEGIN_SRC emacs-lisp
+    ;; (use-package cnfonts
+    ;;    :ensure t)
+  #+END_SRC
 * try
   #+begin_src emacs-lisp
     (use-package try
@@ -24,7 +30,7 @@
 * Org mode
   #+begin_src emacs-lisp
     ;; Org-mode stuff
-    (require 'org-tempo)
+    ;; (require 'org-tempo)
     (use-package org-bullets
       :ensure
       :config
